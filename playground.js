@@ -20,5 +20,28 @@ let message = 'Hello!'; // declare variable and set a value to it
 
 alert(message);
 
-let user = 'John', age = 25, message = 'Hello'; // multiple variables on
-//one line 
+let user = 'John';
+age = 25;
+message = 'Hello';
+// multiple variables on
+//several lines
+//
+let user = 'John',
+  age = 25,
+  message = 'Hello';
+// multiple variables on several lines in a different style
+//
+let user = 'John'
+  , age = 25
+  , message = 'Hello';
+// another style to do multiple variables, comma first
+//
+var message = 'Hello'; //an old school way to do variable declaration
+
+let message;
+
+message = 'Hello!';
+
+message = 'World'; // value changed
+
+alert(message);
